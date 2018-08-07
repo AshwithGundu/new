@@ -128,7 +128,7 @@ body{
 
 
 .body-text{
-    padding: 140px 0;
+    padding: 50px 0;
     background-color: #fff;
     color: #25373C;
     font-size: 28px;
@@ -162,7 +162,7 @@ body{
 
 
 .features-list{
-    padding: 150px 0;
+    padding: 50px 0;
     background-color: #fff;
     color: #25373C;
     font-size: 18px;
@@ -266,7 +266,7 @@ body{
 .gallery{
     color: #221f51;
     font: normal 24px sans-serif;
-    min-height: 300vh;
+    min-height: 250vh;
     text-align: center;
     overflow: hidden;
     background: linear-gradient(white, rgb(43, 166, 211));
