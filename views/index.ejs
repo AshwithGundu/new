@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>Tutorialzine's Awesome Parallax Website</title>
+    <title>Ashwith Gundu</title>
 
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
 
     <link href="demo.css" rel="stylesheet">
     <link href="header.css" rel="stylesheet">
@@ -20,7 +22,7 @@
 <body>
 
 
-    <div class="parallax-image-wrapper" data-anchor-target="#page-intro" data-bottom-top="transform:translateY(200%)" data-top-bottom="transform:translateY(0)">
+    <div class="parallax-image-wrapper" data-anchor-target="#page-intro" data-bottom-top="transform:translateY(200%)" data-top-bottom="transform:translateY(0) ">
 
         <div class="parallax-image" style="background-image:url(/images/coast.jpg)" data-anchor-target="#page-intro" data-bottom-top="transform: translateY(-80%);"
             data-top-bottom="transform: translateY(80%);">
@@ -29,20 +31,21 @@
     </div>
     <div class="parallax-image-wrapper" data-anchor-target=".body-text + .gap" data-bottom-top="transform:translateY(200%)" data-top-bottom="transform:translateY(0)">
 
-        <div class="parallax-image" style="background-image:url(/images/palmtrees.jpg)" data-anchor-target=".body-text + .gap"
-            data-bottom-top="transform: translateY(-80%);" data-top-bottom="transform: translateY(80%);">
+        <div class="parallax-image" style="background-image:url(/images/palmtrees.jpg)" data-anchor-target=".body-text + .gap" data-bottom-top="transform: translateY(-80%);"
+            data-top-bottom="transform: translateY(80%);">
 
         </div>
     </div>
     <div class="parallax-image-wrapper" data-anchor-target=".features-list + .gap" data-bottom-top="transform:translateY(200%)"
         data-top-bottom="transform:translateY(0)">
 
-        <div class="parallax-image" style="background-image:url(/images/coast.jpg)" data-anchor-target=".features-list + .gap"
-            data-bottom-top="transform: translateY(-80%);" data-top-bottom="transform: translateY(80%);">
+        <div class="parallax-image" style="background-image:url(/images/coast.jpg)" data-anchor-target=".features-list + .gap" data-bottom-top="transform: translateY(-80%);"
+            data-top-bottom="transform: translateY(80%);">
 
         </div>
     </div>
-    <div class="parallax-image-wrapper" data-anchor-target=".about-us + .gap" data-bottom-top="transform:translateY(200%)" data-top-bottom="transform:translateY(0)">
+    <div class="parallax-image-wrapper" data-anchor-target=".about-us + .gap" data-bottom-top="transform:translateY(200%)" data-top-bottom="transform:translateY(0)"
+        smooth-parallax="">
 
         <div class="parallax-image" style="background-image:url(/images/coast.jpg)" data-anchor-target=".about-us + .gap" data-bottom-top="transform: translateY(-80%);"
             data-top-bottom="transform: translateY(80%);">
@@ -54,6 +57,7 @@
 
         <div id="page-intro" class="gap" style="background-image:url(/images/coast.jpg); ">
             <img align="" class="logo" src="/images/avatars/1.jpg">
+            <h1 class="">Ashwith Gundu</h1>
 
         </div>
 
@@ -82,20 +86,20 @@
 
         <div class="features-list">
 
-            <h2>Features</h2>
+            <h2 class="hh">Features</h2>
 
             <div data-100-bottom-top="transform: translateX(-200px); opacity: 0" data-center-top="transform: translateX(0px); opacity: 1"
-                style="background-image:url(/images/three/a3.jpeg);height:400px; background-size: cover; ">
+                style="background-image:url(/images/three/a3.jpeg);height:300px; background-size: cover; " >
 
             </div>
 
             <div data-100-bottom-top="transform: translateY(200px); opacity: 0" data-center-top="transform: translateY(0px); opacity: 1"
-                style="background-image:url(/images/three/a1.jpg);height:400px; background-size: cover; ">
+                style="background-image:url(/images/three/a1.jpg);height:300px; background-size: cover; " smooth-parallax="">
 
             </div>
 
             <div data-100-bottom-top="transform: translateX(200px); opacity: 0" data-center-top="transform: translateX(0px); opacity: 1"
-                style="background-image:url(/images/three/a2.jpg);height:400px; background-size: cover; ">
+                style="background-image:url(/images/three/a2.jpg);height:300px; background-size: cover; " >
 
             </div>
 
@@ -106,49 +110,100 @@
 
         <div class="about-us">
 
-            <h2>About us</h2>
+            <h2>About Me</h2>
 
             <div data-150-bottom-center="transform: rotate(-90deg); opacity: 0" data-150-center-center="transform: rotate(0); opacity: 1">
                 <img src="/images/avatars/1.jpg" alt="avatar">
             </div>
-
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque totam, sint atque suscipit hic, nam quidem iste repudiandae
+                deleniti sit fugit? Quia, labore doloremque?
+            </p>
 
         </div>
 
         <div class="gap" style="height:10px;"></div>
 
-        <div class="gallery"></div>
+        <div class="gallery">
+
+        </div>
+
 
 
         <footer>
 
+
             <div class="footer-left">
 
-                <h3>Companylogo</h3>
+                <div class="row contact-info">
 
-                <p class="footer-links">
-                    <a href="#">Home</a>
-                    ·
-                    <a href="#">Blog</a>
-                    ·
-                    <a href="#">Pricing</a>
-                    ·
-                    <a href="#">About</a>
-                    ·
-                    <a href="#">Faq</a>
-                    ·
-                    <a href="#">Contact</a>
+                    <div class="col-xs-4">
+                        <div class="contact-address" style="padding-bottom: 15px;">
+
+
+                            <h3>
+                                <span>
+                                    <i class="material-icons">
+                                        location_on
+                                    </i>
+                                </span>Address</h3>
+                            <address>1115 N College Dr., Maryville, MO 64468, USA</address>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <div class="contact-phone" style="padding-bottom: 15px;">
+
+                            <h3>
+                                <span>
+                                    <i class="material-icons">
+                                        phone
+                                    </i>
+                                </span>Phone Number</h3>
+                            <p>
+                                <a href="tel:+16605280658">+1 (660)-528-0658</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-4">
+                        <div class="contact-email" style="padding-bottom: 15px;">
+                            <h3>
+                                <span>
+                                    <i class="material-icons">
+                                        email
+                                    </i>
+                                </span>Email</h3>
+                            <p>
+                                <a href="mailto:ashwithgundu@gmail.com">ashwithgundu@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <p class="footer-company-name">Gundu &copy;
+                    <%= title %>
+
                 </p>
-
-                <p class="footer-company-name">Company Name &copy; 2015</p>
 
             </div>
 
             <div class="footer-right" data-bottom-top="max-width: 200px;" data-bottom-bottom="max-width: 600px;">
 
-                <form method="get" action="#">
-                    <input placeholder="Search our website" />
-                    <i class="material-icons">search</i>
+                <form action="mailto:ashwithgundu@gmail.com?subject=Enquiry" method="post" enctype="text/plain">
+
+                    <div style="padding-bottom: 5px;">
+                        <h1>Fill the Details</h1>
+                    </div>
+                    <div style="padding-bottom: 5px;">
+                        <input type="text" name="Organization Name" placeholder="Organization Name" />
+                    </div>
+                    <div style="padding-bottom: 5px;">
+                        <input type="text" name="Message" placeholder="Enter Message" />
+                    </div>
+                    <button class="btn">send</button>
+
                 </form>
 
             </div>
@@ -163,6 +218,7 @@
 
     <div class="scroll-pause" data-anchor-target=".gallery" data-100p-top-top="transform:translateY(100%);" data-top-top="transform:translateY(0%)"
         data--150p-top-top="" data--300p-top-top="transform:translateY(-100%)">
+
 
         <div class="row" data-anchor-target=".gallery" data-top-top="transform: translateX(0%);" data--150p-top-top="transform: translateX(-50%);">
             <div style="background-image:url(/images/small/coast.jpg);"></div>
@@ -205,17 +261,38 @@
 
     </div>
 
-
+    <a href="javascript:" id="return-to-top">
+        <i class="icon-chevron-up"></i>
+    </a>
 
     <script src="/skrollr.min.js"></script>
 
     <script>
         skrollr.init();
     </script>
-
+    <script type="text/javascript" src="smooth-parallax.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            SmoothParallax.init();
+        });
+    </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.tutorialzine.com/misc/enhance/v2.js" async></script>
-
+    <script>
+        // ===== Scroll to Top ==== 
+        $(window).scroll(function () {
+            if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
+                $('#return-to-top').fadeIn(200); // Fade in the arrow
+            } else {
+                $('#return-to-top').fadeOut(200); // Else fade out the arrow
+            }
+        });
+        $('#return-to-top').click(function () { // When arrow is clicked
+            $('body,html').animate({
+                scrollTop: 0 // Scroll to top of body
+            }, 2000);
+        });
+    </script>
 </body>
 
 </html>

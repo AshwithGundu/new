@@ -97,8 +97,15 @@ body{
 #page-intro h1{
     text-align: center;
     color: #fff;
-    font: normal 60px 'Droid Serif', sans-serif;
+    font: bold 60px 'Dancing Script',  cursive;
     padding-top: 24vh;
+     /* text-transform: uppercase; */
+     letter-spacing: 4px;
+     font-size: 60px;
+     text-shadow: 1px 1px 2px black,
+     0 0 1em blue,
+     0 0 0.2em greenyellow;
+
 }
 
 @media (max-width: 800px) {
@@ -128,10 +135,10 @@ body{
 
 
 .body-text{
-    padding: 50px 0;
+    padding: 10px 0;
     background-color: #fff;
     color: #25373C;
-    font-size: 28px;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -145,7 +152,7 @@ body{
     width: 28%;
     display: inline-block;
     text-align: left;
-    padding: 20px;
+    padding: 5px 5px 5px 5px;
     color: #45636B;
 }
 
@@ -282,6 +289,20 @@ body{
     background: transparent;
 }
 
+.hh{
+ color: rgb(17, 4, 4);
+ text-shadow: 2px 2px 4px #4b4646;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ font-weight: bold;
+
+}
+
+.b {
+    border-bottom: solid 2px #000;
+    display: inline;
+    padding-bottom: 3px;
+}
 
 .scroll-pause .row{
     width: 200vw;
@@ -298,6 +319,8 @@ body{
     background-size: cover;
     margin: 0.5%;
     border-radius: 10px;
+    
+
 }
 
 .scroll-pause .row div:first-child{
@@ -429,4 +452,50 @@ footer form i{
 
 }
 
+/* SCroll to top */
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+/*  */
 
