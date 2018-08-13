@@ -53,6 +53,12 @@
         </div>
     </div>
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="material-icons">
+ arrow_drop_up
+    </i>
+</button>
+
     <div id="skrollr-body">
 
         <div id="page-intro" class="gap" style="background-image:url(/images/coast.jpg); ">
@@ -261,9 +267,26 @@
 
     </div>
 
-    <a href="javascript:" id="return-to-top">
-        <i class="icon-chevron-up"></i>
-    </a>
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 
     <script src="/skrollr.min.js"></script>
 
@@ -278,21 +301,7 @@
     </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.tutorialzine.com/misc/enhance/v2.js" ></script>
-    <script>
-        // ===== Scroll to Top ==== 
-        $(window).scroll(function () {
-            if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
-                $('#return-to-top').fadeIn(200); // Fade in the arrow
-            } else {
-                $('#return-to-top').fadeOut(200); // Else fade out the arrow
-            }
-        });
-        $('#return-to-top').click(function () { // When arrow is clicked
-            $('body,html').animate({
-                scrollTop: 0 // Scroll to top of body
-            }, 2000);
-        });
-    </script>
+
 </body>
 
 </html>
