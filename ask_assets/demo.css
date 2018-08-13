@@ -69,13 +69,13 @@ body{
  .logo {
     
      width: 200px;
-     height: 200px;
+     height: 250px;
      display: block;
      margin-left: auto;
      margin-right: auto;
      margin-top: auto;
       margin-bottom: auto;
-     padding-top: 10px;
+     padding-top: 30px;
  }
 
 .gap {
@@ -98,7 +98,7 @@ body{
     text-align: center;
     color: #fff;
     font: bold 60px 'Dancing Script',  cursive;
-    padding-top: 24vh;
+    padding-top: 12vh;
      /* text-transform: uppercase; */
      letter-spacing: 4px;
      font-size: 60px;
@@ -139,7 +139,10 @@ body{
     background-color: #fff;
     color: #25373C;
     font-size: 2rem;
+    justify-content: center;
     text-align: center;
+    
+    
 }
 
 .body-text h2{
